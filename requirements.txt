@@ -28,7 +28,7 @@ fonttools
 gast
 gitdb
 GitPython
-google-auth=
+google-auth
 google-auth-oauthlib
 google-pasta
 grpcio
