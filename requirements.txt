@@ -103,7 +103,6 @@ prompt-toolkit==2.0.10
 protobuf==3.6.1
 ptyprocess==0.7.0
 pyarrow==7.0.0
-pycairo==1.16.2
 pycparser==2.21
 pycups==1.9.73
 pydeck==0.7.1
