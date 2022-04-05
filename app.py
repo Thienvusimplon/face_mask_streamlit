@@ -43,7 +43,7 @@ if choice == "Neural network":
 		image_input = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 		mp_face_detection = mp.solutions.face_detection
-		face_detection = mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence=0.3)
+		face_detection = mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence=0.5)
 		mp_drawing = mp.solutions.drawing_utils
 		face_detection_results = face_detection.process(image_input)
 		#st.write(face_detection_results.detections)
