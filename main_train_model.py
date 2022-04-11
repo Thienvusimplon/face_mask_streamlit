@@ -1,5 +1,5 @@
 from feature_extraction_rgb import feature_extract
-from classification import classify
+#from classification import classify
 import pandas as pd
 from joblib import load
 
